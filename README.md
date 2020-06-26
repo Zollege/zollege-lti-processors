@@ -24,6 +24,7 @@ EDXAPP_XBLOCK_SETTINGS:
   lti_consumer:
     parameter_processors:
       - 'zollege_lti.processors:personal_user_info'
+      - 'zollege_lti.processors:course_info'
 ```
 
 Restart the Open edX instance and it should be working.
