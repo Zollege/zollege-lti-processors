@@ -1,7 +1,8 @@
 """
 Common LTI processors for Zollege.
 """
-from helpers import get_user
+from __future__ import absolute_import
+from .helpers import get_user
 from six import text_type
 
 def personal_user_info(xblock):
